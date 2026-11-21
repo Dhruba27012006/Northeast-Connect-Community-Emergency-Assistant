@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@fontsource/noto-sans-bengali": "5.3.0",
+    "@fontsource/noto-sans-devanagari": "5.3.0",
+    "@supabase/supabase-js": "2.119.2",
+    "@vitejs/plugin-react": "4.7.0",
+    "lucide-react": "1.77.0",
+    "playwright": "1.65.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "vite": "6.4.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pdf": "node scripts/generate-guides.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "name": "northeast-connect",
+  "private": true
+}
